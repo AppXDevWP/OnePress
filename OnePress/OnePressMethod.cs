@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace OnePress
 {
-    public class Class1
+    public class OnePressMethod
     {
+        public static OnePressMethod ListPost { get; }
+
+        public static OnePressMethod RetrievePost { get; }
     }
 }
